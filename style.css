@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  */
+
+header{
+    background-color: #1F2937;
+    padding: 1em 20em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    font-size: 18px;
+    font-weight: 100;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 0 4em 0;
+}
+
+.image{
+    width: 600px;
+    background-image: url('./img/venti-views-35uZM_4wjYg-unsplash.jpg');
+    background-size: contain;
+}
+
+
+.column{
+    width: 500px;
+}
+
+.column h1{
+    font-size: 50px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.column p{
+    color: #F9FAF8;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.column button{
+    padding: 5px 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+}
+
+/* Main */
+/* Contenido 1 (cards y wrapper) */
+
+.content1{
+    background-color: #F9FAF8;
+    padding: 2em 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content1 h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.box{
+    background-color: #3882F6;
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Contenido Quote */
+.content2{
+    background-color: #e2e2e2;
+    padding: 5em 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column_quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.column_quote q i{
+    font-size: 30px;
+    color: #3c3c3d;
+}
+
+.author{
+    align-self: self-end;
+    padding-top: 10px;
+}
+
+/* Contenido card */
+
+.content3{
+    padding: 5em 20em;
+}
+
+.blue_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 2em 15em ;
+    border-radius: 5px;
+}
+
+.right button{
+    padding: 5px 20px ;
+    background: none;
+    color: #F9FAF8;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+}
+
+.left p{
+    color: #F9FAF8;
+}
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 1em 0;
+}
